@@ -27,6 +27,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 
+
 }
 
 ol, ul {
@@ -76,7 +77,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #ffffff;
+		background-color: #ed831220;
 	}
 
 
@@ -631,75 +632,7 @@ input, select, textarea {
 
 /* Nav */
 
-	#nav {
-		color: #ffffff;
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		background: rgba(1, 3, 1, 0.606);
-		height: 4rem;
-		line-height: 4rem;
-		margin: -4rem auto 0 auto;
-		overflow: hidden;
-		padding: 0 2rem 0 0;
-		position: relative;
-		width: calc(100% - 4rem);
-		max-width: 72rem;
-		z-index: 2;
-	}
-
-		#nav ul.icons.alt li .icon:before {
-			box-shadow: inset 0 0 0 2px #ffffff;
-		}
-
-		#nav ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #000000;
-		}
-
-		#nav input, #nav select, #nav textarea {
-			color: #ffffff;
-		}
-
 	
-
-		#nav ul.links {
-			display: -moz-flex;
-			display: -webkit-flex;
-			display: -ms-flex;
-			display: flex;
-			-moz-flex-grow: 1;
-			-webkit-flex-grow: 1;
-			-ms-flex-grow: 1;
-			flex-grow: 1;
-			-moz-flex-shrink: 1;
-			-webkit-flex-shrink: 1;
-			-ms-flex-shrink: 1;
-			flex-shrink: 1;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
-			font-weight: 900;
-			letter-spacing: 0.075em;
-			list-style: none;
-			margin-bottom: 0;
-			padding-left: 0;
-			text-transform: uppercase;
-		}
-
-			
-
-				#nav ul.links li a {
-					-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-					-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-					-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-					transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-					display: block;
-					font-size: 0.8rem;
-					outline: none;
-					padding: 0 2rem;
-				}
-
-			
-
-/* Main */
 
 	#main {
 		background-color: #ffffff;
@@ -750,21 +683,25 @@ input, select, textarea {
 		
 		width: 500px; /* Adjust the width as needed */
 		height: auto; 
+		
 	}
 
 	.button{
 
 		color: #e2580e;
-		right: 100px;
-		left: 280px;
+		right: 250px;
+		left: 200px;
 position: relative;
 text-decoration: none;
 border: #000000;
+text-align: center;
 	}
 	.ffr{
 
 		color: #e2580e;
 		right: 100px;
-position: relative;
+		left: 150px;
+
+position: absolute;
 text-decoration: none;
 	}
