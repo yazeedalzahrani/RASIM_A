@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "img",
+			"path": "../ppl/RASIM/img"
+		},
+		{
+			"name": "RASIM_A",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5502,
+		"liveServer.settings.multiRootWorkspaceName": "img"
+	}
+}
